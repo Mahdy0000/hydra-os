@@ -1,6 +1,8 @@
 #include "shell.h"
 #include "fb.h"
 #include "keyboard.h"
+#include "fb.h"
+#include "keyboard.h"
 #include "serial.h"
 #include "snake.h"
 
@@ -65,7 +67,7 @@ void shell_about_command(void)
     fb_puts("Hydra OS - Chapter 1-6 Implementation\n");
     fb_puts("A simple operating system kernel\n");
     fb_puts("Built following 'The little book about OS development'\n");
-    fb_puts("Developer - MultiX\n");
+    fb_puts("Developer - Ahmed Mahdy\n");
     fb_puts("Developer Message - \n"
         "as a full-stack developer i always use high-level programming languages like javascript, dart, golang, and others\n"
         "\n"
