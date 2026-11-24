@@ -1,8 +1,6 @@
 #include "shell.h"
 #include "fb.h"
 #include "keyboard.h"
-#include "fb.h"
-#include "keyboard.h"
 #include "serial.h"
 #include "snake.h"
 
